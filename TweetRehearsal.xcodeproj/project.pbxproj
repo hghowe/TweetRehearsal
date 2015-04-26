@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF70DB2D1AEDAF870047227C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF70DB2C1AEDAF870047227C /* AppDelegate.swift */; };
+		FF70DB2F1AEDAF870047227C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF70DB2E1AEDAF870047227C /* ViewController.swift */; };
+		FF70DB321AEDAF870047227C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF70DB301AEDAF870047227C /* Main.storyboard */; };
+		FF70DB341AEDAF870047227C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF70DB331AEDAF870047227C /* Images.xcassets */; };
+		FF70DB371AEDAF870047227C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF70DB351AEDAF870047227C /* LaunchScreen.xib */; };
+		FF70DB431AEDAF870047227C /* TweetRehearsalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF70DB421AEDAF870047227C /* TweetRehearsalTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF70DB3D1AEDAF870047227C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF70DB1F1AEDAF870047227C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF70DB261AEDAF870047227C;
+			remoteInfo = TweetRehearsal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF70DB271AEDAF870047227C /* TweetRehearsal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TweetRehearsal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF70DB2B1AEDAF870047227C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF70DB2C1AEDAF870047227C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF70DB2E1AEDAF870047227C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF70DB311AEDAF870047227C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF70DB331AEDAF870047227C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FF70DB361AEDAF870047227C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FF70DB3C1AEDAF870047227C /* TweetRehearsalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TweetRehearsalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF70DB411AEDAF870047227C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF70DB421AEDAF870047227C /* TweetRehearsalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetRehearsalTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF70DB241AEDAF870047227C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF70DB391AEDAF870047227C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF70DB1E1AEDAF870047227C = {
+			isa = PBXGroup;
+			children = (
+				FF70DB291AEDAF870047227C /* TweetRehearsal */,
+				FF70DB3F1AEDAF870047227C /* TweetRehearsalTests */,
+				FF70DB281AEDAF870047227C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF70DB281AEDAF870047227C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF70DB271AEDAF870047227C /* TweetRehearsal.app */,
+				FF70DB3C1AEDAF870047227C /* TweetRehearsalTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF70DB291AEDAF870047227C /* TweetRehearsal */ = {
+			isa = PBXGroup;
+			children = (
+				FF70DB2C1AEDAF870047227C /* AppDelegate.swift */,
+				FF70DB2E1AEDAF870047227C /* ViewController.swift */,
+				FF70DB301AEDAF870047227C /* Main.storyboard */,
+				FF70DB331AEDAF870047227C /* Images.xcassets */,
+				FF70DB351AEDAF870047227C /* LaunchScreen.xib */,
+				FF70DB2A1AEDAF870047227C /* Supporting Files */,
+			);
+			path = TweetRehearsal;
+			sourceTree = "<group>";
+		};
+		FF70DB2A1AEDAF870047227C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF70DB2B1AEDAF870047227C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF70DB3F1AEDAF870047227C /* TweetRehearsalTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF70DB421AEDAF870047227C /* TweetRehearsalTests.swift */,
+				FF70DB401AEDAF870047227C /* Supporting Files */,
+			);
+			path = TweetRehearsalTests;
+			sourceTree = "<group>";
+		};
+		FF70DB401AEDAF870047227C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF70DB411AEDAF870047227C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF70DB261AEDAF870047227C /* TweetRehearsal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF70DB461AEDAF870047227C /* Build configuration list for PBXNativeTarget "TweetRehearsal" */;
+			buildPhases = (
+				FF70DB231AEDAF870047227C /* Sources */,
+				FF70DB241AEDAF870047227C /* Frameworks */,
+				FF70DB251AEDAF870047227C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TweetRehearsal;
+			productName = TweetRehearsal;
+			productReference = FF70DB271AEDAF870047227C /* TweetRehearsal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF70DB3B1AEDAF870047227C /* TweetRehearsalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF70DB491AEDAF870047227C /* Build configuration list for PBXNativeTarget "TweetRehearsalTests" */;
+			buildPhases = (
+				FF70DB381AEDAF870047227C /* Sources */,
+				FF70DB391AEDAF870047227C /* Frameworks */,
+				FF70DB3A1AEDAF870047227C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF70DB3E1AEDAF870047227C /* PBXTargetDependency */,
+			);
+			name = TweetRehearsalTests;
+			productName = TweetRehearsalTests;
+			productReference = FF70DB3C1AEDAF870047227C /* TweetRehearsalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF70DB1F1AEDAF870047227C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Harlan.Howe;
+				TargetAttributes = {
+					FF70DB261AEDAF870047227C = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					FF70DB3B1AEDAF870047227C = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = FF70DB261AEDAF870047227C;
+					};
+				};
+			};
+			buildConfigurationList = FF70DB221AEDAF870047227C /* Build configuration list for PBXProject "TweetRehearsal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF70DB1E1AEDAF870047227C;
+			productRefGroup = FF70DB281AEDAF870047227C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF70DB261AEDAF870047227C /* TweetRehearsal */,
+				FF70DB3B1AEDAF870047227C /* TweetRehearsalTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF70DB251AEDAF870047227C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF70DB321AEDAF870047227C /* Main.storyboard in Resources */,
+				FF70DB371AEDAF870047227C /* LaunchScreen.xib in Resources */,
+				FF70DB341AEDAF870047227C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF70DB3A1AEDAF870047227C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF70DB231AEDAF870047227C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF70DB2F1AEDAF870047227C /* ViewController.swift in Sources */,
+				FF70DB2D1AEDAF870047227C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF70DB381AEDAF870047227C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF70DB431AEDAF870047227C /* TweetRehearsalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF70DB3E1AEDAF870047227C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF70DB261AEDAF870047227C /* TweetRehearsal */;
+			targetProxy = FF70DB3D1AEDAF870047227C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF70DB301AEDAF870047227C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF70DB311AEDAF870047227C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF70DB351AEDAF870047227C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF70DB361AEDAF870047227C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF70DB441AEDAF870047227C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF70DB451AEDAF870047227C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF70DB471AEDAF870047227C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TweetRehearsal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FF70DB481AEDAF870047227C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TweetRehearsal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FF70DB4A1AEDAF870047227C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TweetRehearsalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TweetRehearsal.app/TweetRehearsal";
+			};
+			name = Debug;
+		};
+		FF70DB4B1AEDAF870047227C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TweetRehearsalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TweetRehearsal.app/TweetRehearsal";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF70DB221AEDAF870047227C /* Build configuration list for PBXProject "TweetRehearsal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF70DB441AEDAF870047227C /* Debug */,
+				FF70DB451AEDAF870047227C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF70DB461AEDAF870047227C /* Build configuration list for PBXNativeTarget "TweetRehearsal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF70DB471AEDAF870047227C /* Debug */,
+				FF70DB481AEDAF870047227C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF70DB491AEDAF870047227C /* Build configuration list for PBXNativeTarget "TweetRehearsalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF70DB4A1AEDAF870047227C /* Debug */,
+				FF70DB4B1AEDAF870047227C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF70DB1F1AEDAF870047227C /* Project object */;
+}
