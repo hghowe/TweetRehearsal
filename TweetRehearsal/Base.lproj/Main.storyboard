@@ -1,11 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Qrb-ws-j52">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Tab Bar Controller-->
+        <scene sceneID="Bdf-kG-szD">
+            <objects>
+                <tabBarController id="Qrb-ws-j52" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="yjc-QQ-i0Q">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="m2y-Xf-wJd"/>
+                        <segue destination="nWu-KE-sba" kind="relationship" relationship="viewControllers" id="yZ2-eN-ey8"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bKC-Cy-Gid" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-789" y="340"/>
+        </scene>
+        <!--Tweet-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TweetRehearsal" customModuleProvider="target" sceneMemberID="viewController">
@@ -17,7 +36,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ECu-E0-5AK">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ECu-E0-5AK">
                                 <rect key="frame" x="272" y="550" width="57" height="30"/>
                                 <state key="normal" title="Tweet it!">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -33,13 +52,18 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" tag="20" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="#SwiftPractice" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oL4-SU-A64">
-                                <rect key="frame" x="28" y="133" width="200" height="21"/>
+                                <rect key="frame" x="28" y="133" width="115" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="cGG-Hl-Eih"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="cGG-Hl-Eih"/>
+                                    </mask>
+                                </variation>
                             </label>
                             <switch opaque="NO" tag="10" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yBy-HE-KHF">
                                 <rect key="frame" x="505" y="128" width="51" height="31"/>
@@ -48,7 +72,7 @@
                                 </connections>
                             </switch>
                             <label opaque="NO" userInteractionEnabled="NO" tag="21" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="#Lookit!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ijt-sp-4Qd">
-                                <rect key="frame" x="28" y="172" width="200" height="21"/>
+                                <rect key="frame" x="28" y="172" width="62" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -60,7 +84,7 @@
                                 </connections>
                             </switch>
                             <label opaque="NO" userInteractionEnabled="NO" tag="22" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="#gratuitousTweeting" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cop-yK-uN3">
-                                <rect key="frame" x="28" y="211" width="200" height="21"/>
+                                <rect key="frame" x="28" y="211" width="544" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -78,7 +102,7 @@
                                 </connections>
                             </switch>
                             <label opaque="NO" userInteractionEnabled="NO" tag="23" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="#compsciclass" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OG8-YP-umO">
-                                <rect key="frame" x="28" y="250" width="200" height="21"/>
+                                <rect key="frame" x="28" y="250" width="115" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -120,6 +144,8 @@
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
+                                <exclude reference="GdC-ng-xz1"/>
+                                <exclude reference="SkT-oP-zlW"/>
                                 <exclude reference="JlL-9T-Rnk"/>
                                 <exclude reference="abz-yX-1nk"/>
                                 <exclude reference="wgv-e7-RHw"/>
@@ -130,6 +156,7 @@
                             </mask>
                         </variation>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Tweet" image="TweetIcon" id="Mw9-HW-yOC"/>
                     <connections>
                         <outlet property="tag0Label" destination="oL4-SU-A64" id="Mha-g9-cr7"/>
                         <outlet property="tag0Switch" destination="yBy-HE-KHF" id="5E4-We-s0J"/>
@@ -143,6 +170,72 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="7" y="0.0"/>
+        </scene>
+        <!--Listen-->
+        <scene sceneID="i2G-7w-Xos">
+            <objects>
+                <navigationController id="nWu-KE-sba" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Listen" image="ListenIcon" id="5EG-5W-tWq"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="HE5-A8-Wz9">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="I1r-KE-O9R" kind="relationship" relationship="rootViewController" id="aod-bT-hh9"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pni-FC-Ica" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7" y="748"/>
+        </scene>
+        <!--Listen-->
+        <scene sceneID="r7p-Ix-xiV">
+            <objects>
+                <tableViewController id="I1r-KE-O9R" customClass="TweetListenerViewController" customModule="TweetRehearsal" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="3J0-sc-SVW">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TweetCell" textLabel="Xmn-FI-cBq" style="IBUITableViewCellStyleDefault" id="qdX-dr-EFt">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="qdX-dr-EFt" id="M5F-07-mhe">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Xmn-FI-cBq">
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="I1r-KE-O9R" id="Wq3-oT-X4C"/>
+                            <outlet property="delegate" destination="I1r-KE-O9R" id="gdy-uI-BVr"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="Listen" image="ListenIcon" id="Lgf-rQ-ciA"/>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="EGc-8a-nf5">
+                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="gPY-vE-wx9">
+                            <connections>
+                                <action selector="handleReload:" destination="I1r-KE-O9R" id="D2w-jr-Rtg"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BY5-Lj-xbf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="712" y="748"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="ListenIcon" width="30" height="30"/>
+        <image name="TweetIcon" width="30" height="30"/>
+    </resources>
 </document>

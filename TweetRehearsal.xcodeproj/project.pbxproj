@@ -13,6 +13,13 @@
 		FF70DB341AEDAF870047227C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF70DB331AEDAF870047227C /* Images.xcassets */; };
 		FF70DB371AEDAF870047227C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF70DB351AEDAF870047227C /* LaunchScreen.xib */; };
 		FF70DB431AEDAF870047227C /* TweetRehearsalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF70DB421AEDAF870047227C /* TweetRehearsalTests.swift */; };
+		FF70DB521AEDD4EF0047227C /* ListenIcon@x1.png in Resources */ = {isa = PBXBuildFile; fileRef = FF70DB4C1AEDD4EF0047227C /* ListenIcon@x1.png */; };
+		FF70DB531AEDD4EF0047227C /* ListenIcon@x2.png in Resources */ = {isa = PBXBuildFile; fileRef = FF70DB4D1AEDD4EF0047227C /* ListenIcon@x2.png */; };
+		FF70DB541AEDD4EF0047227C /* ListenIcon@x3.png in Resources */ = {isa = PBXBuildFile; fileRef = FF70DB4E1AEDD4EF0047227C /* ListenIcon@x3.png */; };
+		FF70DB551AEDD4EF0047227C /* TweetIcon@x1.png in Resources */ = {isa = PBXBuildFile; fileRef = FF70DB4F1AEDD4EF0047227C /* TweetIcon@x1.png */; };
+		FF70DB561AEDD4EF0047227C /* TweetIcon@x2.png in Resources */ = {isa = PBXBuildFile; fileRef = FF70DB501AEDD4EF0047227C /* TweetIcon@x2.png */; };
+		FF70DB571AEDD4EF0047227C /* TweetIcon@x3.png in Resources */ = {isa = PBXBuildFile; fileRef = FF70DB511AEDD4EF0047227C /* TweetIcon@x3.png */; };
+		FF70DB591AEDD6320047227C /* TweetListenerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF70DB581AEDD6320047227C /* TweetListenerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,13 @@
 		FF70DB3C1AEDAF870047227C /* TweetRehearsalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TweetRehearsalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF70DB411AEDAF870047227C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF70DB421AEDAF870047227C /* TweetRehearsalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetRehearsalTests.swift; sourceTree = "<group>"; };
+		FF70DB4C1AEDD4EF0047227C /* ListenIcon@x1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ListenIcon@x1.png"; sourceTree = "<group>"; };
+		FF70DB4D1AEDD4EF0047227C /* ListenIcon@x2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ListenIcon@x2.png"; sourceTree = "<group>"; };
+		FF70DB4E1AEDD4EF0047227C /* ListenIcon@x3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ListenIcon@x3.png"; sourceTree = "<group>"; };
+		FF70DB4F1AEDD4EF0047227C /* TweetIcon@x1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TweetIcon@x1.png"; sourceTree = "<group>"; };
+		FF70DB501AEDD4EF0047227C /* TweetIcon@x2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TweetIcon@x2.png"; sourceTree = "<group>"; };
+		FF70DB511AEDD4EF0047227C /* TweetIcon@x3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TweetIcon@x3.png"; sourceTree = "<group>"; };
+		FF70DB581AEDD6320047227C /* TweetListenerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetListenerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +93,7 @@
 			children = (
 				FF70DB2C1AEDAF870047227C /* AppDelegate.swift */,
 				FF70DB2E1AEDAF870047227C /* ViewController.swift */,
+				FF70DB581AEDD6320047227C /* TweetListenerViewController.swift */,
 				FF70DB301AEDAF870047227C /* Main.storyboard */,
 				FF70DB331AEDAF870047227C /* Images.xcassets */,
 				FF70DB351AEDAF870047227C /* LaunchScreen.xib */,
@@ -90,6 +105,12 @@
 		FF70DB2A1AEDAF870047227C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FF70DB4C1AEDD4EF0047227C /* ListenIcon@x1.png */,
+				FF70DB4D1AEDD4EF0047227C /* ListenIcon@x2.png */,
+				FF70DB4E1AEDD4EF0047227C /* ListenIcon@x3.png */,
+				FF70DB4F1AEDD4EF0047227C /* TweetIcon@x1.png */,
+				FF70DB501AEDD4EF0047227C /* TweetIcon@x2.png */,
+				FF70DB511AEDD4EF0047227C /* TweetIcon@x3.png */,
 				FF70DB2B1AEDAF870047227C /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,8 +214,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF70DB321AEDAF870047227C /* Main.storyboard in Resources */,
+				FF70DB531AEDD4EF0047227C /* ListenIcon@x2.png in Resources */,
+				FF70DB521AEDD4EF0047227C /* ListenIcon@x1.png in Resources */,
+				FF70DB541AEDD4EF0047227C /* ListenIcon@x3.png in Resources */,
 				FF70DB371AEDAF870047227C /* LaunchScreen.xib in Resources */,
 				FF70DB341AEDAF870047227C /* Images.xcassets in Resources */,
+				FF70DB571AEDD4EF0047227C /* TweetIcon@x3.png in Resources */,
+				FF70DB551AEDD4EF0047227C /* TweetIcon@x1.png in Resources */,
+				FF70DB561AEDD4EF0047227C /* TweetIcon@x2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +241,7 @@
 			files = (
 				FF70DB2F1AEDAF870047227C /* ViewController.swift in Sources */,
 				FF70DB2D1AEDAF870047227C /* AppDelegate.swift in Sources */,
+				FF70DB591AEDD6320047227C /* TweetListenerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

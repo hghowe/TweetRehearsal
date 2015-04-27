@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import Social
 class ViewController: UIViewController {
 
     @IBOutlet weak var tag0Label: UILabel!
@@ -86,6 +86,16 @@ class ViewController: UIViewController {
             }
         }
         println (tagString)
+        
+        if SLComposeViewController.isAvailableForServiceType(SLServiceTypeTwitter){
+            var twitterSheet:SLComposeViewController = SLComposeViewController(forServiceType: SLServiceTypeTwitter)
+            twitterSheet.setInitialText(tagString)
+            self.presentViewController(twitterSheet, animated: true, completion: nil)
+        } else {
+            var alert = UIAlertController(title: "Accounts", message: "Please login to a Twitter account to share.", preferredStyle: UIAlertControllerStyle.Alert)
+            alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
+            self.presentViewController(alert, animated: true, completion: nil)
+        }
     }
     
 }
